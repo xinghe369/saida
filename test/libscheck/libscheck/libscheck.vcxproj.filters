@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\libs">
+      <UniqueIdentifier>{b8873456-6464-4050-bef0-d98e1a5fc62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libs\private">
+      <UniqueIdentifier>{7869cae7-614b-4a54-9102-476e66c625b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libs\private\dymem">
+      <UniqueIdentifier>{01f29d9f-f1de-4ffd-8ce2-07b3347cfab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test">
+      <UniqueIdentifier>{820d57bd-e4e3-494b-972b-6d6ca5b79344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test\libscheck">
+      <UniqueIdentifier>{f3994671-4a7e-421a-a64e-d478a1de1c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libs\private\dytlv">
+      <UniqueIdentifier>{3559d1f6-1d99-479a-986e-4e1f2c7f8129}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\libs\private\dymem\dymem.c">
+      <Filter>源文件\libs\private\dymem</Filter>
+    </ClCompile>
+    <ClCompile Include="libscheck.c">
+      <Filter>源文件\test\libscheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\private\dytlv\dytlv.c">
+      <Filter>源文件\libs\private\dytlv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libs\private\dymem\dymem.h">
+      <Filter>源文件\libs\private\dymem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\private\dytlv\dytlv.h">
+      <Filter>源文件\libs\private\dytlv</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
