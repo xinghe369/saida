@@ -65,7 +65,7 @@ extern "C"
 /*-----------------------------------------------------------------------------
 |   prototypes
 +----------------------------------------------------------------------------*/
-GLOBAL void* dymem_generate(void* buffer, unsigned int size);
+GLOBAL void* dymem_generate(unsigned char* buffer, unsigned int size);
 GLOBAL void* dymem_alloc(void* priv, unsigned int size);
 GLOBAL void* dymem_realloc(void* priv, void* buffer, unsigned int size);
 GLOBAL void dymem_free(void* priv, void* buffer);
