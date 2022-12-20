@@ -31,3 +31,9 @@
 [submodule "libs/third/littlefs"]
 	path = libs/third/littlefs
 	url = https://github.com/littlefs-project/littlefs.git
+[submodule "libs/private/dymem"]
+	path = libs/private/dymem
+	url = https://github.com/xinghe369/dymem.git
+[submodule "libs/private/dytlv"]
+	path = libs/private/dytlv
+	url = https://github.com/xinghe369/dytlv.git
