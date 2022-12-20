@@ -1,0 +1,30 @@
+[submodule "libs/third/FreeRTOS-Kernel"]
+	path = libs/third/FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "libs/third/cJSON"]
+	path = libs/third/cJSON
+	url = https://github.com/DaveGamble/cJSON.git
+[submodule "libs/third/mbedtls"]
+	path = libs/third/mbedtls
+	url = https://github.com/Mbed-TLS/mbedtls.git
+[submodule "libs/third/lvgl"]
+	path = libs/third/lvgl
+	url = https://github.com/lvgl/lvgl.git
+[submodule "libs/third/threadx"]
+	path = libs/third/threadx
+	url = https://github.com/azure-rtos/threadx.git
+[submodule "libs/third/libevent"]
+	path = libs/third/libevent
+	url = https://github.com/libevent/libevent.git
+[submodule "libs/third/fatfs"]
+	path = libs/third/fatfs
+	url = https://github.com/abbrev/fatfs.git
+[submodule "libs/third/spdlog"]
+	path = libs/third/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "libs/third/libharu"]
+	path = libs/third/libharu
+	url = https://github.com/libharu/libharu.git
+[submodule "libs/third/openssl"]
+	path = libs/third/openssl
+	url = https://github.com/openssl/openssl.git
