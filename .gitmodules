@@ -28,3 +28,6 @@
 [submodule "libs/third/openssl"]
 	path = libs/third/openssl
 	url = https://github.com/openssl/openssl.git
+[submodule "libs/third/littlefs"]
+	path = libs/third/littlefs
+	url = https://github.com/littlefs-project/littlefs.git
